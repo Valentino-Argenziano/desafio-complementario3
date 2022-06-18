@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Complementario</title>
+</head>
+
+<body>
+    <h1 id="encabezado">DOM</h1>
+    <div id="concepto">
+        La <strong>programacion</strong> informática es el arte del proceso por el cual se limpia, codifica, traza y
+        protege el código fuente de programas computacionales, en otras palabras, es indicarle a la computadora lo que
+        tiene que hacer.
+    </div>
+
+    <p name="caracterisiticas">
+        Una página web es un documento accesible desde cualquier navegador con acceso a internet, y que puede incluir
+        audio, vídeo, texto y sus diferentes combinaciones.
+    </p>
+
+    <div id="datos"></div>
+
+    <form>
+        Nombre:<input type="text" id="nombre" />
+        <br />¿Sabes programar?SI<input type="radio" id="rsi" name="programar" value="SI" />NO
+        <input type="radio" id="rno" name="programar" value="NO" />
+        <br /> Marcar si eres estudiante:<input type="checkbox" id="estudiante" value="SI" />
+        <br />
+        <button type="button" onclick="valida()">Validar</button>
+            <button type="button" onclick="limpiar()">Limpiar</button>
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
